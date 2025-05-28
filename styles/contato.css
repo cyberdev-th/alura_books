@@ -33,4 +33,18 @@
     padding-left: 2em;
 }
 
-
+@media (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .contato__email {
+        width: 30%;
+    }
+    .contato__titulo {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+}
