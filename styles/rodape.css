@@ -37,3 +37,13 @@ hr {
         color: var(--cinza);
     }
 }
+
+@media (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-titulo);
+        padding-left: 1em
+    }
+    .rodape {
+        padding: 3em 0;
+    }
+}
