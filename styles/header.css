@@ -31,7 +31,11 @@
   width: 60vw;
 }
 
-.container__botao:checked ~ .lista-menu {
+.opcoes__botao {
+  display: none;
+}
+
+.opcoes__botao:checked ~ .lista-menu {
   display: block;
 }
 
